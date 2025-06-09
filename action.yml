@@ -1,0 +1,11 @@
+name: Custom release action
+runs:
+  using: node20
+  main: index.js
+inputs:
+  files:
+    required: true
+  tag:
+    required: true
+  token:
+    required: true
