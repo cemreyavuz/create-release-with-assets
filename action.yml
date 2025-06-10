@@ -1,4 +1,5 @@
-name: Custom release action
+name: Create release with assets
+description: Create a GitHub release as draft, upload assets to it and then mark it as production-ready
 runs:
   using: node20
   main: dist/index.js
