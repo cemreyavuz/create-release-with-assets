@@ -10,3 +10,6 @@ inputs:
     required: true
   token:
     required: true
+branding:
+  icon: 'tag'
+  color: 'blue'
